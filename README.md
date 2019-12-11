@@ -22,6 +22,22 @@ Execute the next command updating the parameter values based on your MySQL insta
 <h2>How to Execute</h2>
 
 <strong>Using Property File</strong>
+
+# type of database. Run with -dbhelp for details
+schemaspy.t=mysql
+# optional path to alternative jdbc drivers.
+schemaspy.dp=C:\Users\XXXXX\Downloads\mysql-connector-java-5.1.22.jar
+# database properties: host, port number, name user, password
+schemaspy.host=localhost
+schemaspy.port=3306
+schemaspy.db=DATABASE
+schemaspy.u=USER
+schemaspy.p=PASSWORD
+# output dir to save generated files
+schemaspy.o=C:\Users\XXXXX\Desktop\SchemaSpy\DB_Documentation
+# db scheme for which generate diagrams
+schemaspy.s=SCHEMA
+
 <li>java -jar C:\Users\XXXXX\Desktop\SchemaSpy\schemaSpy-6.1.0.jar -vizjs -configFile C:\Users\XXXXX\Desktop\SchemaSpy/schemaspy.properties</li>
 
 <strong>Using Command</strong>
