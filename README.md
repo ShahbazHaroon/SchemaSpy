@@ -23,7 +23,7 @@ Execute the next command updating the parameter values based on your MySQL insta
 
 <strong>Using Property File</strong>
 
-<strong>#type of database. Run with -dbhelp for details</strong>
+#type of database. Run with -dbhelp for details
 <li>schemaspy.t=mysql</li>
 <strong>#optional path to alternative jdbc drivers</strong>
 <li>schemaspy.dp=C:\Users\XXXXX\Downloads\mysql-connector-java-5.1.22.jar</li>
@@ -35,7 +35,7 @@ Execute the next command updating the parameter values based on your MySQL insta
 <li>schemaspy.p=PASSWORD</li>
 <strong>#output dir to save generated files</strong>
 <li>schemaspy.o=C:\Users\XXXXX\Desktop\SchemaSpy\DB_Documentation</li>
-<strong>#db scheme for which generate diagrams</strong>
+#db scheme for which generate diagrams
 <li>schemaspy.s=SCHEMA</li>
 
 <li>java -jar C:\Users\XXXXX\Desktop\SchemaSpy\schemaSpy-6.1.0.jar -vizjs -configFile C:\Users\XXXXX\Desktop\SchemaSpy/schemaspy.properties</li>
