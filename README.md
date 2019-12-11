@@ -33,6 +33,7 @@ Execute the next command updating the parameter values based on your MySQL insta
 <li>schemaspy.o=C:\Users\XXXXX\Desktop\SchemaSpy\DB_Documentation</li>
 <li>schemaspy.s=SCHEMA</li>
 
+<strong>Using Property File</strong>
 <li>java -jar C:\Users\XXXXX\Desktop\SchemaSpy\schemaSpy-6.1.0.jar -vizjs -configFile C:\Users\XXXXX\Desktop\SchemaSpy/schemaspy.properties</li>
 
 <strong>Using Command</strong>
