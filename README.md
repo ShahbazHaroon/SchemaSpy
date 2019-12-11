@@ -22,11 +22,15 @@ Execute the next command updating the parameter values based on your MySQL insta
 <h2>How to Execute</h2>
 
 <strong>Using Command</strong>
+
 <li>java -jar C:\Users\XXXXX\Desktop\SchemaSpy\schemaSpy-6.1.0.jar -vizjs -t mysql -host <strong>HOSTNAME</strong> -db <strong>DATABASE</strong> -s <strong>SCHEMA</strong> -u <strong>USER</strong> -p <strong>PASSWORD</strong> -dp C:\Users\XXXXX\Desktop\mysql-connector-java-5.1.22.jar -o C:\Users\XXXXX\Desktop\SchemaSpy\DB_Documentation -gv C:\Program Files (x86)\Graphviz2.38</li>
 
+<br/>
 <strong>Using Property File</strong>
+
 <li>java -jar C:\Users\XXXXX\Desktop\SchemaSpy\schemaSpy-6.1.0.jar -vizjs -configFile C:\Users\XXXXX\Desktop\SchemaSpy/schemaspy.properties</li>
 
+<br/>
 <strong>Property File</strong>
 <li>schemaspy.t=mysql</li>
 <li>schemaspy.dp=C:\Users\XXXXX\Downloads\mysql-connector-java-5.1.22.jar</li>
