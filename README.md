@@ -19,14 +19,12 @@ Download the MySQL Java Connector jar file <strong>(mysql-connector-java-5.1.22.
 Execute the next command updating the parameter values based on your MySQL installation, MySQL credentials and the files downloaded previously (SchemaSpy and Java Connector)
 </li></ol>
 
-<p>Open the index.html file in order to refer the generated database documentation</p>
-
 <h2>How to Execute</h2>
 
 <strong>Using Property File</strong>
-
 <li>java -jar C:\Users\XXXXX\Desktop\SchemaSpy\schemaSpy-6.1.0.jar -vizjs -configFile C:\Users\XXXXX\Desktop\SchemaSpy/schemaspy.properties</li>
 
 <strong>Using Command</strong>
-
 <li>java -jar C:\Users\XXXXX\Desktop\SchemaSpy\schemaSpy-6.1.0.jar -vizjs -t mysql -host <strong>HOSTNAME</strong> -db <strong>DATABASE</strong> -s <strong>SCHEMA</strong> -u <strong>USER</strong> -p <strong>PASSWORD</strong> -dp C:\Users\XXXXX\Desktop\mysql-connector-java-5.1.22.jar -o C:\Users\XXXXX\Desktop\SchemaSpy\DB_Documentation -gv C:\Program Files (x86)\Graphviz2.38</li>
+
+<p>Open the index.html file in order to refer the generated database documentation</p>
