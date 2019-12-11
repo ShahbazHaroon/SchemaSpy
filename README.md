@@ -43,4 +43,4 @@ Execute the next command updating the parameter values based on your MySQL insta
 <li>schemaspy.o=C:\Users\XXXXX\Desktop\SchemaSpy\DB_Documentation</li>
 <li>schemaspy.s=SCHEMA</li>
 
-<p>Open the index.html file in order to refer the generated database documentation</p>
+<h1>Open the index.html file in order to refer the generated database documentation</h1>
