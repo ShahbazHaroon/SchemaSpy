@@ -1,5 +1,6 @@
 # SchemaSpy
-SchemaSpy to document database
+<strong>SchemaSpy to document database</strong>
+
 Here you can learn, how to generate the database documentation from a simple MySQL schema
 <h2>SchemmaSpy (Official description)</h2>
 SchemaSpy is a Java-based tool (requires Java 5 or higher) that analyzes the metadata of a schema in a database and generates a visual representation of it in a browser-displayable format
